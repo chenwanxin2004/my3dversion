@@ -1,14 +1,43 @@
-data/KITTI07/image_0
-slides
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
 
-__pycache__
-build
-x64
-Debug
-Release
+# uv
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+x64/
+Debug/
+Release/
 *.exe
 *.dll
 *.obj
 *.iobj
 *.pdb
 *.ipdb
+
+# Data files (optional - uncomment if you don't want to upload large data)
+# data/KITTI07/image_0
+# *.xyz
+# *.pt
+
+# Slides (if you don't want to upload)
+# slides/
