@@ -1,0 +1,25 @@
+# Core dependencies for 3D vision
+numpy>=1.21.0
+matplotlib>=3.5.0
+scipy>=1.7.0
+opencv-python>=4.5.0
+opencv-contrib-python>=4.5.0
+
+# RealSense 3D camera support
+pyrealsense2>=2.50.0
+
+# YOLO and Supervision for crossing detection
+supervision>=0.16.0
+ultralytics>=8.0.0
+
+# Deep learning frameworks
+torch>=1.12.0
+torchvision>=0.13.0
+
+# Visualization and utilities
+pillow>=8.0.0
+open3d>=0.17.0
+
+# Optional: For better performance
+# tensorrt  # NVIDIA GPU acceleration
+# onnxruntime  # Cross-platform inference
